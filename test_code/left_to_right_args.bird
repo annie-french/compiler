@@ -1,0 +1,5 @@
+def foo(x,y)
+    0
+end
+
+foo(print(1), print(2))

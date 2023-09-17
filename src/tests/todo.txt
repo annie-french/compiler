@@ -1,0 +1,19 @@
+- Go through stack looking for VALID heap pointers
+- intialize start_of_heap (won't change after its intialized)
+- intialize start_of_stack (won't change after its intialized)
+- intialize end_of_heap (won't change after its intialized)
+- intialize end_of_stack
+- Call garbage collector when heap_cursor goes past end_of_heap
+- error code 7 = out of memory after running GC
+- gc.h has documentation on expectations for how gc should run
+- Mark: which identifies all heap objects which are still reachable.
+- Forward: which determines new memory locations for all reachable heap objects (but does not yet move them).
+- Update: which changes all pointers on the heap to refer to the new memory locations 
+          (even though the objects haven’t moved yet).
+- Compact: which moves all reachable heap objects into their new locations 
+           (so that the updated pointers are now correct).
+- Unmark: which zeroes the GC words of reachable heap objects 
+          (to be ready for the next garbage collection pass).
+
+
+-heap_object_size -> does checking if it is a closure zero out the size??

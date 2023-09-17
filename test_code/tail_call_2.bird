@@ -1,0 +1,5 @@
+def f a x b =
+  if x = 1 then (a,b) else f (a+1) (x-1) (b && b)
+end
+
+f 4 10000000 true

@@ -1,0 +1,11 @@
+def g x =
+    4
+end
+
+def f x y z =
+    (g x) + y
+end
+
+let a = f 2 in
+let b = a 3 in
+b

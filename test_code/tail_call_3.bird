@@ -1,0 +1,9 @@
+def f x y z =
+  x + y + z
+end
+
+def g n =
+  f n n n
+end
+
+g 4

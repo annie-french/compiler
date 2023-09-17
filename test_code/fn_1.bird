@@ -1,0 +1,9 @@
+def f x =
+ 5 
+end
+
+def g x y =
+  x > y
+end
+
+g (f 3) 4

@@ -1,0 +1,12 @@
+def f x y = 
+    let t = (1,2) in
+    x
+end
+def g x y z =
+    y
+end
+
+let a = f 1 in
+let b = a 2 in
+let c = g 1 2 in
+c 3

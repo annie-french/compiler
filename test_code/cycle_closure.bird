@@ -1,0 +1,15 @@
+def f x y z =
+  z
+end
+
+def cycle_closure_memory n =
+  let c = f 4 5 in
+  if n < 1 then
+    1
+  else
+    cycle_closure_memory (n-1)  + cycle_closure_memory (n-1)
+end
+
+cycle_closure_memory 20
+
+

@@ -1,0 +1,28 @@
+def f1 x =
+  if x = 1 then
+    1
+  else
+    f2 (x-1) false
+end
+
+def f2 x b =
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  let junk = 7 in let junk = 7 in let junk = 7 in let junk = 7 in
+  f1 x
+end
+
+f1 1000000

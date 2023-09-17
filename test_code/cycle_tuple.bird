@@ -1,0 +1,9 @@
+def cycle_tuple_memory n =
+  let x = (4, 5) in
+  if n < 1 then
+    1
+  else
+    cycle_tuple_memory (n-1) + cycle_tuple_memory (n-1)
+end
+
+cycle_tuple_memory 20

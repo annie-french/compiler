@@ -1,0 +1,5 @@
+def f(x)
+  g(y,z)
+end
+
+f()

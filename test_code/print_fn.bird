@@ -1,0 +1,5 @@
+def f x y = 
+    x+y
+end
+
+f (print(1)) (print(2))

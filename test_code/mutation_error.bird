@@ -1,0 +1,3 @@
+let t = (1,2) in 
+let y = (t[2] := 3) in 
+y

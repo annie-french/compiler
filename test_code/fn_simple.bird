@@ -1,0 +1,5 @@
+def f x  =
+    x
+end
+
+f 1 

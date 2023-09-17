@@ -1,0 +1,7 @@
+let x =
+    let y = (5,6,7,8) in
+    let z = (1,2,3) in
+    let w = (z, z) in
+    z
+in
+(x, x, x, x)
